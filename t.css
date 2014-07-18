@@ -1,0 +1,28 @@
+#wrapper{ 
+    width: 500PX;
+    margin: 0 auto;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
+.box{
+    background: #999;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.box1{
+    background: #999;
+    float: left;
+    height: 60px;
+    text-align: center;
+    width: auto;
+
+}

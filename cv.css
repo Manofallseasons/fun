@@ -1,0 +1,138 @@
+li{
+	color: blue;
+	display: inline-block;
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0;
+	text-transform: capitalize;
+	width: 31%
+}
+
+ul{
+	margin:0;
+}
+
+body{
+	margin: 0;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.body .kep {
+	padding: 10px 20px;
+	float: left;
+}
+.cap {
+	text-transform: capitalize;
+}
+
+.colo {
+	color: blue;
+}
+
+
+.clr {
+	clear: both;
+}
+
+.born {
+	color: #49A5DE;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.picto {
+	padding: 17px 20px;
+	display: inline-block;
+}
+
+.data {
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.email {
+	color: blue;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: underline;	
+}
+
+.last {
+	text-align: right;
+}
+
+.mypanel {
+	/*border: 1px solid black;
+	border-radius: 5px;*/
+	margin: 3%;
+}
+
+.mypanel .pers {
+	color: blue;
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	width: 207px;
+	line-height: 40px;
+}
+.mypanel .name {
+	display: inline-block;
+	padding: 10px 20px;	
+	text-transform: capitalize;
+	font-size: 30px;
+}
+
+.work {
+	color: blue;
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	width: 207px;
+	line-height: 40px;
+}
+
+.job {
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	font-size: 30px;
+	vertical-align: text-bottom;
+}	
+
+.deco {
+	overflow: hidden;
+   
+}
+.deco > span {
+    position: relative;
+    display: inline-block;
+    }
+	
+.deco > span:before,
+.deco > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1730px;
+    height: 1px;
+    background: blue;
+    margin-left: 20px;
+    }
+
+.deco > span:before {
+    right: 100%;
+    margin-right: 15px;
+    }
+.date {
+	color: blue;
+	padding: 10px 10px 200px 20px;
+	display: inline-block;
+	float: left;	
+}
+.text {
+	display: inline-block;
+	padding: 10px 20px;
+	width: 1200px;
+	text-align: justify;
+}

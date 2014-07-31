@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>CV</title>
+		<link href="style/cv2.css" rel="stylesheet">
+	</head>
+
+		<body>
+			
+					
+					<ul>
+						<li>Europass</li>
+						<li>Önéletrajz</li>
+						<li class="last">Polyik Tamás</li>
+					</ul>
+			
+		
+
+				<div class="mypanel">
+					<div class="pers">személyi adatok</div>
+					<div class="name">polyik tamás</div>
+					<div class="body">
+							<div class="clr"></div>
+						<div class="kep"><img src="style/picto/me.png"></div>
+						<div class="picto"><img src="style/picto/loc.png"></div>
+						<div class="data">Dédestapolcsány Kiss Benjámin Út. 10.</div>
+							<div class="body">
+								<div class="picto"><img src="style/picto/tel.png"></div>
+								<div class="data">06/70-322-1702</div>
+									<div class="body">
+										<div class="picto"><img src="style/picto/mail.png"></div>
+										<div class="email">polyik.thomas@gmail.com</div>	
+											<div class="body">
+												<div class="born">Születési idő</div>
+												<div class="data">1983.12.25</div>
+											</div>
+									</div>							
+							</div>	    
+
+					</div>				
+				</div>
+				
+				<div class="mypanel">
+					<div class="work">betölteni kívánt munkakör</div>
+					<div class="job">designer</div>
+				</div>
+
+				<div class="mypanel">
+					<div class="deco">
+							<span class="work">szakmai tapasztalat</span>
+					</div>		
+				</div>
+				<div class="clr"></div>
+				<div class="mypanel">
+					<div class="date">2009.03.27 - jelenleg</div>
+					<div class="data cap colo">informatikus (szerviz vezető)</div>
+						<div class="body">
+							<div class="data cap">humán kft.</div>
+							<div class="body">
+								<div class="text">Asztali és hordozható számítógépek javítása, telepítése, beszerzése, árajánlatok készítése, hálózati végpontok kiépítése, javítása, mérése, Rack szekrény kábelezése, bekötése, mérése, tesztelése, kialakított hálózatok karbantartása, távsegítség nyújtás (LogMeIn vagy TeamViewer-en keresztül), kapcsolattartás az ügyfélkörrel, havi, heti helyszíni karbantartások kivitelezése, DELL helyszíni szervizek megvalósítása, megrendelések kiszállítása
+								beüzemelése, ügyfél igényeinek megfelelõen.
+								</div>
+							</div>
+						</div>
+					
+				</div>
+		</body>
+
+</html>

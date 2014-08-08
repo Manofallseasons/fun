@@ -1,0 +1,174 @@
+li{
+	color: blue;
+	display: inline-block;
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0;
+	text-transform: capitalize;
+	width: 31%
+}
+
+ul{
+	margin:0;
+}
+
+body{
+	margin: 0;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.body .kep {
+	float: left;
+}
+.cap {
+	text-transform: capitalize;
+}
+.pad1 {
+	padding: 10px 20px;
+}
+.pad2 {
+	padding: 17px 20px;
+}
+.pad3 {
+	padding: 10px 10px 200px 20px;
+}
+.pad4 {
+	padding: 10px 20px 40px 10px;
+}
+.pad5 {
+	padding: 10px 20px 120px 20px;
+}
+
+.colo {
+	color: blue;
+}
+
+.clr {
+	clear: both;
+}
+
+.born {
+	color: #49A5DE;
+	display: inline-block;
+}
+
+.picto {
+	display: inline-block;
+}
+
+.data {
+	display: inline-block;
+}
+
+.email {
+	color: blue;
+	display: inline-block;
+	text-decoration: underline;	
+}
+
+.last {
+	text-align: right;
+}
+.mypanel:hover {
+	left: 0px;
+}
+
+.mypanel {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 2%;
+	box-shadow: 0 0 4px black;
+	position: relative;
+	left: -1775px;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.mypanel .pers {
+	color: blue;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 207px;
+	line-height: 40px;
+}
+.mypanel .name {
+	display: inline-block;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+
+.work {
+	color: blue;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: left;
+	width: 210px;
+	line-height: 40px;
+	margin:0;
+}
+
+.job {
+	display: inline-block;
+	text-transform: capitalize;
+	font-size: 30px;
+	vertical-align: text-bottom;
+}	
+
+.deco {
+	overflow: hidden;
+   
+}
+.deco > span {
+    position: relative;
+    display: inline-block;
+    }
+	
+.deco > span:before,
+.deco > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1730px;
+    height: 1px;
+    background: blue;
+    margin-left: 20px;
+    }
+
+.deco > span:before {
+    right: 100%;
+    margin-right: 15px;
+    }
+.date {
+	color: blue;
+	display: inline-block;
+	float: left;
+	width: 200px;
+}
+.text {
+	display: inline-block;
+	width: 1200px;
+	text-align: justify;
+}
+.pdata {
+	color: blue;
+	display: inline-block;
+	float: left;
+	width: 200px;
+}
+.tdat {
+	display: inline-block;	
+	width: 26%;
+	text-align: center;
+	text-transform: capitalize;
+}
+.tdatl {
+	display: inline-block;	
+	width: 12%;
+	text-align: right;
+	text-transform: capitalize;
+}
+.tdatsr {
+	display: inline-block;	
+	width: 12%;
+	text-align: center;
+	text-transform: capitalize;
+}

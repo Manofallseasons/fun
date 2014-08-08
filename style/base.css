@@ -1,0 +1,15 @@
+.kiemelt {
+	color: green;
+}
+
+#asd {
+	font-style: italic;
+}
+
+body div[1] span {
+	font-weight: bold;
+}
+
+body div .kiemelt {
+	font-weight: bold;
+}

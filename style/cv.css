@@ -1,0 +1,59 @@
+table, td, tr{
+	border: 0px solid blue;
+	border-collapse:collapse;
+	font-family: arial;
+	margin: auto;
+	width: 1280px;
+	padding: 3px 10px 3px 10px;
+	text-align: right;
+	text-transform: Uppercase;
+	color: #191969;
+	font-weight:bold;
+}
+
+.space{
+	padding-bottom: 20px;
+	padding-top: 20px;	
+}
+.bc{
+	color: #08F;
+}
+.left{
+	text-align: left;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+.right{
+	text-align: right;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+.cent{
+	text-align: center;
+	color: #191969;
+}
+
+.centu{
+	text-align: center;
+	color: #191969;
+	text-transform: uppercase;
+}
+
+.centc{
+	text-align: center;
+	color: #191969;
+	text-transform: capitalize;
+}
+
+.big{font-size: 24px;}
+
+.emil{
+	text-align: left;
+	color: #00F;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+.blk{color: black;}
+.nrm{font-weight: normal;}

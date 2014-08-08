@@ -1,0 +1,11 @@
+.table1 tr td:first-child {
+	text-align: right;
+	color: #191969;
+    text-transform: uppercase;
+}
+
+.table1 {
+	text-align: right;
+	color: #191969;
+	text-transform: capitalize;
+}

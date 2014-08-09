@@ -73,13 +73,18 @@ body{
 .vertical {
 	float: right;
 	position: relative;
-	top: 20px;
 	writing-mode:tb-rl;
 	-webkit-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -o-transform: rotate(90deg);
 }
+.s_top {
+	top: 40px;
+}
 
+.b_top {
+	top: 110px;
+}
 
 section {
 	border: 1px solid black;

@@ -70,27 +70,37 @@ body{
 .last {
 	text-align: right;
 }
-.mypanel:hover {
-	left: 0px;
+.vertical {
+	float: right;
+	position: relative;
+	top: 20px;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
 }
 
-.mypanel {
+
+section {
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 2%;
 	box-shadow: 0 0 4px black;
 	position: relative;
-	left: -1775px;
+	left: -90%;
 	-webkit-transition: all 0.5s ease-in-out;
 }
-.mypanel .pers {
+section:hover {
+	left: 0;
+}
+.pers {
 	color: blue;
 	display: inline-block;
 	text-transform: uppercase;
 	width: 207px;
 	line-height: 40px;
 }
-.mypanel .name {
+.name {
 	display: inline-block;
 	text-transform: capitalize;
 	font-size: 30px;

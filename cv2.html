@@ -1,16 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
+		
+	<head>
+		<link href="style/cv2.css" rel="stylesheet">
 		<script type="text/javascript">
   			function showMyPanel() {
     		var elem = document.getElementById("mypanel");
     			elem.classList.toggle("show");
   			}
 		</script>
-	<head>
+		<meta charset="utf-8">
 		<title>CV</title>
-		<link href="style/cv2.css" rel="stylesheet">
-	</head>
+			</head>
 
 		<body>
 			
@@ -23,7 +25,8 @@
 			
 		
 
-				<div class="mypanel">
+				<section>
+					<a href="#" onclick="showLeftPanel();" class="controller">&gt;</a>
 					<div class="pers pad1">személyi adatok</div>
 					<div class="name pad1">polyik tamás</div>
 					<div class="body">
@@ -45,22 +48,23 @@
 							</div>	    
 
 					</div>				
-				</div>
+				</section>
 				
-				<div class="mypanel">
+				<section>
 					<div class="work pad1">betölteni kívánt munkakör</div>
 					<div class="job pad1">designer</div>
-				</div>
+				</section>
 
-				<div class="mypanel">
+				<section>
 					<div class="deco">
 							<span class="work pad1">szakmai tapasztalat</span>
 					</div>		
-				</div>
+				</section>
 				<div class="clr"></div>
-				<div class="mypanel">
+				<section>
 					<div class="date pad3">2009.03.27 - jelenleg</div>
 					<div class="data pad1 cap colo">informatikus (szerviz vezető)</div>
+					<div class="data last pad1 vertical"> valami</div>
 						<div class="body">
 							<div class="data pad1 cap">humán kft.</div>
 							<div class="body">
@@ -116,15 +120,15 @@
 								</div>
 							</div>
 						</div>
-				</div>
+				</section>
 				<div class="clr"></div>
-				<div class="mypanel">
+				<section>
 					<div class="deco">
 							<span class="work pad1">tanulmányok</span>
 					</div>
-				</div>	
+				</section>	
 				<div class="clr"></div>
-				<div class="mypanel">
+				<section>
 					<div class="date pad5">2002 - 2004</div>
 					<div class="data pad1 cap colo">ipari elektronikus</div>
 						<div class="body">
@@ -144,14 +148,14 @@
 								</div>
 							</div>
 						</div>
-				</div>
+				</section>
 				<div class="clr"></div>
-				<div class="mypanel">
+				<section>
 					<div class="deco">
 					 <span class="work pad1">személyes kézségek</span>
 					</div>
 				</div>	
-				<div class="mypanel">
+				<section>
 					<div class="pdata pad4 cap">anyanyelv</div>
 					<div class="data pad1 cap col">magyar</div>
 				<div class="clr"></div>
@@ -171,7 +175,7 @@
 					<div class="tdatsr pad1">b1</div>
 					<div class="tdatsr pad1">b1</div>
 					<div class="tdatl pad1">b1</div>
-				</div>
+				</section>
 		</body>
 
 </html>

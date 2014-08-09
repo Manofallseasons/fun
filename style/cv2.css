@@ -18,6 +18,10 @@ body{
 	font-size: 18px;
 }
 
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
 .body .kep {
 	float: left;
 }
@@ -59,6 +63,7 @@ body{
 
 .data {
 	display: inline-block;
+	font-style: italic;
 }
 
 .email {
@@ -73,7 +78,6 @@ body{
 .vertical {
 	float: right;
 	position: relative;
-	writing-mode:tb-rl;
 	-webkit-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -o-transform: rotate(90deg);
@@ -84,6 +88,7 @@ body{
 
 .b_top {
 	top: 110px;
+	left: 40px;
 }
 
 section {
@@ -92,12 +97,17 @@ section {
 	margin: 2%;
 	box-shadow: 0 0 4px black;
 	position: relative;
-	left: -90%;
+	left: 0%;
 	-webkit-transition: all 0.5s ease-in-out;
 }
 section:hover {
+	/*left: -85%;*/
 	left: 0;
 }
+#mypanel.show {
+	left:0;
+}
+
 .pers {
 	color: blue;
 	display: inline-block;
@@ -160,7 +170,7 @@ section:hover {
 }
 .text {
 	display: inline-block;
-	width: 1200px;
+	width: 77%;
 	text-align: justify;
 }
 .pdata {
@@ -171,7 +181,7 @@ section:hover {
 }
 .tdat {
 	display: inline-block;	
-	width: 26%;
+	width: 24%;
 	text-align: center;
 	text-transform: capitalize;
 }
@@ -187,3 +197,6 @@ section:hover {
 	text-align: center;
 	text-transform: capitalize;
 }
+
+}
+
